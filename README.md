@@ -47,26 +47,28 @@ Or install it yourself as:
 The Starter Log Theme is great for personal and professional projects.  It provides a custom boostrap theme and color scheme, layouts, includes, static pages, assets, and lunr search functionality that you can use to build out a fully functional jekyll project that compliments your technical writing...
 
 Core components such as bootstrap, font-awesome, jquery, and lunr.js were used to develop the theme, and make it very simple to extend and build upon.
-  /
-    _includes             ## HEAD, HEADER AND FOOTER (e.g. Navbar)
-      footer.html
-      head.html
-      header.html
 
-    _layouts              ## LAYOUTS DIRECTORY
-      default.html
-      page.html
-      post.html
+    /
+      _includes             ## HEAD, HEADER AND FOOTER (e.g. Navbar)
+        footer.html
+        head.html
+        header.html
 
-    _pages                ## PAGES DIRECTORY FOR STATIC PAGES (html)
+      _layouts              ## LAYOUTS DIRECTORY
+        default.html
+        page.html
+        post.html
 
-    assets                ## FONTS, IMAGES, SCRIPTS, STYLES
-      fonts
-      images
-      scripts
-      styles
+      _pages                ## PAGES DIRECTORY FOR STATIC PAGES (html)
 
-TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
+      assets                ## FONTS, IMAGES, SCRIPTS, STYLES
+        fonts
+        images
+        scripts
+        styles
+
+## Screenshots
+[[https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/home.png]]
 
 ## Contributing
 
