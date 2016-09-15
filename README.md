@@ -68,7 +68,25 @@ Core components such as bootstrap, font-awesome, jquery, and lunr.js were used t
         styles
 
 ## Screenshots
+
+### Home Page
 ![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/home.png "Home Page")
+
+### Palette
+![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/palette.png "Palette")
+
+### Custom Bootstrap Theme
+![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/theme.png "Custom Theme")
+
+### Lunr Search
+![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/search.png "Lunr Search")
+
+### Search Results
+![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/search-results.png "Search Results")
+
+### Static Page Templates
+![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/about.png "About")
+
 
 
 ## Contributing
