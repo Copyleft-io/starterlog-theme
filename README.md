@@ -69,26 +69,33 @@ Core components such as bootstrap, font-awesome, jquery, and lunr.js were used t
 
 ## Screenshots
 
+<hr>
 ### Home Page
 ![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/home.png "Home Page")
 
+<hr>
 ### Palette
 ![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/palette.png "Palette")
 
+<hr>
 ### Custom Bootstrap Theme
 ![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/theme.png "Custom Theme")
 
+<hr>
 ### Lunr Search
 ![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/search.png "Lunr Search")
 
+<hr>
 ### Search Results
 ![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/search-results.png "Search Results")
 
+<hr>
 ### Static Page Templates
 ![Alt text](https://github.com/Copyleft-io/starterlog-theme/blob/master/docs/images/about.png "About")
 
 
-
+<br>
+<br>
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/Copyleft-io/starterlog-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
