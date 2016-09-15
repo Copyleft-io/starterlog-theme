@@ -4,3 +4,133 @@ title: Start
 permalink: /start/
 ---
 <h1> Getting Started</h1>
+<br><br>
+<p class="lead">A detailed overview of the Starter Log Minimalist Theme for Jekyll.</p>
+<p>Listed below are the prerequisites that are required to used this theme. Also included
+  are the details regarding the components, structure, styling, and sources that were used.
+</p>
+
+<br>
+<hr>
+<h2>Prerequisites</h2>
+<ul>
+    <li>Ruby Version = 2.3.0p0</li>
+    <li>Bundler Version 1.12.5</li>
+    <li>Jekyll Version = 3.2.1</li>
+</ul>
+
+
+<br>
+<hr>
+<h2>Components</h2>
+<ul>
+  <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+  <li><a href="http://getbootstrap.com/customize/" target="_blank">Customize Bootstrap</a></li>
+  <li><a href="http://fontawesome.io/" target="_blank">Font Awesome</a></li>
+  <li><a href="http://placehold.it/" target="_blank">PLACEHOLD.IT</a></li>
+  <li><a href="http://lunrjs.com/" target="_blank">Lunr.js</a></li>
+</ul>
+
+<br>
+<hr>
+<h2>Structure</h2>
+<pre>
+/
+  _includes             ## HEAD, HEADER AND FOOTER (e.g. Navbar)
+    footer.html
+    head.html
+    header.html
+
+  _layouts              ## LAYOUTS DIRECTORY
+    default.html
+    page.html
+    post.html
+
+  _pages                ## PAGES DIRECTORY FOR STATIC PAGES (html)
+    about
+      index.html
+    features
+      index.html
+    portfolio
+      index.html
+    profile
+      index.html
+    project
+      index.html
+    projects
+      index.html
+    search
+      index.html
+    start
+      index.html
+    theme
+      index.html
+
+  _plugins              ## PLUGINS DIRECTORY
+
+  _posts                ## POSTS DIRECTORY (markdown)
+    2016-09-01-what-is-bacon-ipsum.md
+    2016-09-02-what-is-lorem-ipsum.md
+
+  _sass                 ## SASS DIRECTORY
+
+  assets                ## ASSETS DIRECTORY
+    fonts
+      font-awesome fonts
+      glyphicons fonts for bootstrap
+
+    images
+      camp.jpg
+      copyleft.png
+      starterlog.png
+
+    scripts
+      bootstrap.js      ## BOOTSTRAP CORE LIBRARY
+      fullscreensearch.js  ## FULL SCREEN SEARCH UI
+      jquery.js         ## JQUERY CORE LIBRARY
+      lunr.js           ## LUNR.JS CORE LIBRARY
+      search.js         ## SEARCH POSTS IMPLEMENTING LUNR.JS
+
+    styles
+      custom.css
+      font-awesome.css  ## CORE FONT-AWESOME
+      theme.css         ## CUSTOM BOOTSTRAP THEME
+
+  config
+    config.json         ## CUSTOMIZE BOOTSTRAP CONFIG FILE (https://getbootstrap.com/customize/)
+
+  _config.yml           ## JEKYLL CONFIGURATION FILE
+  .gitignore
+  Gemfile
+  index.html            ## MAIN INDEX ENTRY POINT
+  LICENSE.txt
+  README.md
+</pre>
+<br>
+
+<hr>
+<h2>Stylings</h2>
+<p>A custom bootstrap theme was created at <a href="https://getbootstrap.com/customize/" target="_blank">GetBootstrap.com</a>
+ <br>You can preview the custom bootstrap theme and color palette here --&gt; <a href="/theme">Custom Theme</a>
+
+<br>
+<hr>
+<h2>Sources</h2>
+
+<p><span class="lead">Image: camp.png</span><br>
+Source: <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Link_Creek_Forest_Camp%2C_Deschutes%2C_1954_-_NARA_-_299103.tif/lossy-page1-1920px-Link_Creek_Forest_Camp%2C_Deschutes%2C_1954_-_NARA_-_299103.tif.jpg" target="_blank">Original Image</a></br>
+Description: <a href="https://commons.wikimedia.org/wiki/File:Link_Creek_Forest_Camp,_Deschutes,_1954_-_NARA_-_299103.tif" target="_blank">Link Creek Forest Camp, Deschutes, 1954</a></br>
+This file was provided to <a href="https://commons.wikimedia.org" target="_blank">Wikimedia Commons</a> by the National Archives and Records Administration as part of a cooperation project. The National Archives and Records Administration provides images depicting American and global history which are public domain or licensed under a free license.<br>
+License: Public Domain</br>
+</p>
+
+<p><span class="lead">Image: copyleft.png</span><br>
+Source: <a href="https://commons.wikimedia.org/wiki/Copyright#/media/File:Copyleft.svg" target="_blank">Wikimedia Commons</a><br>
+License: Public Domain<br>
+</p>
+
+<p><span class="lead">Image: starterlog.png</span><br>
+Source: Created by Brian Hooper at Copyleft.io<br>
+Description: 8-Bit Fire Logo<br>
+License: GNU General Public License 3.0<br>
+</p>
