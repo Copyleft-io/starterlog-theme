@@ -1,0 +1,46 @@
+# SEO settings
+title: "Starter Log"
+description: "A minimalist Jekyll theme for Hobbyists and Technical Writers."
+keywords: "Jekyll, theme, open source, download, SEO, web, minimalist, hobbyist, copyleft.io, starterlog, starterlog.io"
+url: https://github.com/Copyleft-io/starterlog-theme #site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+#google_analytics: UA-XXXXX-XX
+repo: https://github.com/Copyleft-io/starterlog-theme
+#disqus_shortname: "FellowHobbyist"
+#twitter_username: "FelloWHobbyist"
+#comments: true
+
+# Build settings
+#permalink   : /:year/:title/
+permalink: /:title/
+markdown    : kramdown
+highlighter : rouge
+
+kramdown:
+    syntax_highlighter: rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+include: ['_pages']
+
+# Author settings
+author:
+  name     : "Brian Hooper"
+  job      : "Hobbyist and Technology Professional"
+  bio      : "An open source workafrolic who enjoys service the communities where we live, learn, work, and play."
+  thumb    : /images/author.jpg
+  email    : afellowhobbyist@gmail.com
+  url      : http://fellowhobbyist.github.io
+  github   : http://github.com/fellowhobbyist
+  twitter  : http://twitter.com/fellowhobbyist
+  linkedin : http://linkedin.com/in/fellowhobbyist
+
+gems: [jekyll-paginate]

@@ -1,0 +1,41 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+    <!-- Full Width Image Header with Logo -->
+    <!-- Image backgrounds are set within the custom.css file. -->
+    <header class="image-bg-fluid-height">
+        <!--<img class="img-responsive img-center" src="http://placehold.it/200x200&text=Logo" alt="">-->
+        <img class="img-responsive img-center" src="assets/images/starterlog.png" alt="">
+    </header>
+
+    <!-- Content Section -->
+    <section>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-heading">Starter Log</h1>
+                    <p class="lead section-lead">A minimalist Jekyll theme. designed for Technology Hobbyists.</p>
+                    <p class="section-paragraph">Starter Log is designed for technical writers who wish to share their findings, rantings, and inner daemons.  It is perfect for personal blogs, projects, or teams.  The theme is built using Jekyll along with components such as Bootstrap, Font Awesome, jQuery, and Lunr.js</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <hr>
+    <h2><i class="fa fa-file-text-o"></i> Recent Posts</h2>
+    <br>
+<section class="post-list">
+  <div class="container">
+    {% for post in site.posts %}
+      <article class="post-item">
+        <span class="post-meta date-label">{{ post.date | date: "%b %d %Y" }}</span>
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+      </article><br>
+    {% endfor %}
+  </div>
+
+</section>
